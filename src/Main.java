@@ -5,8 +5,7 @@ public class Main {
         int age = 10;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + " он совершеннолетний");
-        }
-        if (age < 18) {
+        }else {
             System.out.println("Если возраст человека равен " + age + " он не достиг совершеннолетия," +
                     " нужно немного подождать");
         }                       //задача1
@@ -16,8 +15,7 @@ public class Main {
         int temperatureOutside = -5;
         if (temperatureOutside <= 5) {   //поставила "<=" т.к. в случае если на улице 5 градусов, то ничего не выводится, надеюсь не ошибка
             System.out.println("На улице " + temperatureOutside + " градусов, нужно надеть шапку");
-        }
-        if (temperatureOutside > 5) {
+        }else {
             System.out.println("На улице " + temperatureOutside + " градусов, можно идти без шапки");
         }                       //задача2
 
@@ -77,8 +75,8 @@ public class Main {
         System.out.println( );
 
         int one = 9;
-        int two = 8;
-        int three = 8;
+        int two = 10;
+        int three = 10;
         if (one > two && one > three){
             System.out.println("Число " + one + " самое большое");
         } else if (two > one && two > three) {
@@ -86,11 +84,11 @@ public class Main {
         } else if (three > one && three > two) {
             System.out.println("Число " + three + " самое большое");
         } else if (one == two && one > three) {
-            System.out.println("Число " + one + " и число " + two + " равны и самые большие");
+            System.out.println("Число " + one + " самое большое");
         } else if (two == three && two > one) {
-        System.out.println("Число " + two + " и число " + three + " равны и самые большие");
+        System.out.println("Число " + two + " самое большое");
         } else if (one == three && one > two) {
-            System.out.println("Число " + one + " и число " + three + " равны и самые большие");
+            System.out.println("Число " + one + " самое большое");
         } else {
             System.out.println("Числа равны");
         }                       //задача7 (не совсем поняла что применять если числа равны, по условиям ничего не сказано)
